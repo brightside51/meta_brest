@@ -1,4 +1,4 @@
-# 🧭 Meta_Brest Mission
+# 🧭 MetaBrest Mission
 
 ---
 
