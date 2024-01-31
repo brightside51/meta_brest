@@ -1,3 +1,5 @@
+---
+
 # 🧭 MetaBrest Mission
 
 ---
@@ -6,6 +8,8 @@
 
 > **The goal is to create a biomechanical generative model to produce synthetic, high-fidelity and high-quality (even if using Super Resolution) breast MRI scans to then be fed to Deep Learning models. These should also be created conditionally and in a patient-specific manner so as to improve automated diagnosis research.**
 
+---
+
 # 🔍 Research Ideas
 
 ---
@@ -13,6 +17,8 @@
 > **The usage of masks to condition the position and shape of tumours could be a biased approach, since basing these on previous cases of tumour-typology could be disregarding the information contained in the patient-specific input images.**
 
 > Generated Images have slightly less contrast. Inter-Breast Muscle is also irregularly defined and often of an excessive width. Finally, generated pectorals do not match the anatomic extremity. All these discrepancies between real and generated can be measured and used as punishment losses, although this will require either manual labour or simple localization models.
+
+---
 
 # 📌 Step-by-Step
 
@@ -39,6 +45,8 @@
 - Image-to-Image Translation 3D Diffusion Model
 - Adversarially Trained Conditional Diffusion Model (with High Discriminator Threshold)
 - Physics-Informed Deformation-Based 3D Image Generative Model
+
+---
 
 # ⚖️ Patient-Specific Parameters
 
