@@ -1,19 +1,12 @@
-\Begin{multicols}{2}
-
-```c++
 # 🧭 MetaBrest Mission
 > There is relevancy in capturing breast deformation in MRI scans since these are taken with the patient facing the floor, but surgery is performed the other way around, thus possibly paving the way for avoidable surgeon mistakes.
 
 > **The goal is to create a biomechanical generative model to produce synthetic, high-fidelity and high-quality (even if using Super Resolution) breast MRI scans to then be fed to Deep Learning models. These should also be created conditionally and in a patient-specific manner so as to improve automated diagnosis research.**
-```
 
-```c++
 # 🔍 Research Ideas
 > **The usage of masks to condition the position and shape of tumours could be a biased approach, since basing these on previous cases of tumour-typology could be disregarding the information contained in the patient-specific input images.**
 
 > Generated Images have slightly less contrast. Inter-Breast Muscle is also irregularly defined and often of an excessive width. Finally, generated pectorals do not match the anatomic extremity. All these discrepancies between real and generated can be measured and used as punishment losses, although this will require either manual labour or simple localization models.
-```
-\End{multicols}
 
 # 📌 Step-by-Step
 
